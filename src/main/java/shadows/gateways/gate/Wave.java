@@ -84,7 +84,7 @@ public class Wave {
 
 			final double fx = x, fy = y, fz = z;
 
-			if (level.noCollision(toSpawn.getAABB(fx, fy, fz))) {
+			if (true || level.noCollision(toSpawn.getAABB(fx, fy, fz))) {
 				LivingEntity entity = toSpawn.createEntity(level);
 
 				if (entity == null) {
